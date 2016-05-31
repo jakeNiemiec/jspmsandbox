@@ -41,10 +41,7 @@ SystemJS.config({
         }
       }
     }
-  }
-});
-
-SystemJS.config({
+  },
   packageConfigPaths: [
     "github:*/*.json",
     "npm:@*/*.json",
