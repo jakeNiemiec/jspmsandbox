@@ -1,11 +1,17 @@
 SystemJS.config({
-  paths: {
-    "github:": "jspm_packages/github/",
-    "npm:": "jspm_packages/npm/",
-    "jspmsandbox/": "src/"
-  },
   browserConfig: {
-    "baseURL": "/"
+    "paths": {
+      "github:": "/jspm_packages/github/",
+      "npm:": "/jspm_packages/npm/",
+      "jspmsandbox/": "/src/"
+    }
+  },
+  nodeConfig: {
+    "paths": {
+      "github:": "jspm_packages/github/",
+      "npm:": "jspm_packages/npm/",
+      "jspmsandbox/": "src/"
+    }
   },
   devConfig: {
     "map": {
