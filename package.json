@@ -9,7 +9,7 @@
   "author": "WarmlyYours <webmaster@warmlyyours.com> (http://warmlyyours.com/)",
   "license": "UNLICENSED",
   "devDependencies": {
-    "jspm": "^0.17.0-beta.16",
+    "jspm": "^0.17.0-beta.17",
     "typescript": "^1.8.10"
   },
   "jspm": {
